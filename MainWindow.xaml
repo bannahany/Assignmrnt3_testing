@@ -1,0 +1,153 @@
+﻿<Window
+    x:Class="Assignement_3_Testing.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Assignement_3_Testing"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid Background="DarkGray">
+
+        <TextBox
+            x:Name="txt_product_Name"
+            Width="190"
+            Height="25"
+            Margin="342,111,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="AliceBlue"
+            FontSize="14"
+            Opacity="0.6"
+            TextWrapping="Wrap" />
+        <Label
+            x:Name="Lbl_Product_Name"
+            Width="125"
+            Height="30"
+            Margin="212,106,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            ClipToBounds="True"
+            Content="Product Name"
+            FontSize="16"
+            FontWeight="Bold"
+            Foreground="#213250"
+            IsEnabled="False"
+            RenderTransformOrigin="0.395,0.194" />
+        <TextBox
+            x:Name="txt_Product_Id"
+            Width="190"
+            Height="25"
+            Margin="342,151,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="AliceBlue"
+            FontSize="14"
+            Opacity="0.6"
+            TextWrapping="Wrap" />
+        <Label
+            x:Name="Lbl_Product_Id"
+            Width="125"
+            Height="30"
+            Margin="212,146,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Product ID"
+            FontSize="16"
+            FontWeight="Bold"
+            Foreground="#213250"
+            RenderTransformOrigin="0.395,0.194" />
+
+        <TextBox
+            x:Name="txt_Amount_kg"
+            Width="190"
+            Height="25"
+            Margin="342,191,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="AliceBlue"
+            FontSize="14"
+            Opacity="0.6"
+            TextWrapping="Wrap" />
+        <Label
+            x:Name="Lbl_Amount_kg"
+            Width="125"
+            Height="30"
+            Margin="212,226,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Price(CAD)/kg"
+            FontSize="16"
+            FontWeight="Bold"
+            Foreground="#213250"
+            RenderTransformOrigin="0.395,0.194" />
+        <TextBox
+            x:Name="txt_Price"
+            Width="190"
+            Height="25"
+            Margin="342,231,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="AliceBlue"
+            FontSize="14"
+            Opacity="0.6"
+            TextWrapping="Wrap" />
+
+        <Label
+            x:Name="Lbl_Price"
+            Width="125"
+            Height="30"
+            Margin="212,186,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Amount(kg)"
+            FontSize="16"
+            FontWeight="Bold"
+            Foreground="#213250"
+            RenderTransformOrigin="0.395,0.194" />
+        <Button
+            x:Name="Btn_Insert"
+            Width="111"
+            Margin="207,282,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="#4265"
+            BorderBrush="AliceBlue"
+            BorderThickness="2"
+            Click="Button_Click"
+            Content="Insert"
+            FontSize="14"
+            FontWeight="Bold"
+            Foreground="AliceBlue" />
+        <Button
+            x:Name="btn_Update_DB"
+            Width="111"
+            Margin="329,282,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="#4265"
+            BorderBrush="AliceBlue"
+            BorderThickness="2"
+            Content="Update Data"
+            FontSize="14"
+            FontWeight="Bold"
+            Foreground="AliceBlue" />
+        <Button
+            x:Name="btn_Delete"
+            Width="111"
+            Margin="448,282,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="#4265"
+            BorderBrush="AliceBlue"
+            BorderThickness="2"
+            Content="Delete Data"
+            FontSize="14"
+            FontWeight="Bold"
+            Foreground="AliceBlue" />
+
+    </Grid>
+
+</Window>
